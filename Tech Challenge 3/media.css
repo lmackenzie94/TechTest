@@ -1,0 +1,180 @@
+@media (max-width: 768px) {
+
+  	.hero-text {
+    	width: 400px;
+	}
+
+	h1 {
+		font-size: 3.1rem;
+	}
+
+	h2 {
+		font-size: 2.6rem;
+	}
+
+	h3 {
+		font-size: 2.7rem;
+	}
+
+	h4 {
+		font-family: $baseFont;
+		font-size: 1.4rem;
+		font-weight: 600;
+		letter-spacing: .1rem;
+		text-transform: uppercase;
+	}
+
+	.main-nav ul {
+		position: fixed;
+		top: 66px;
+		right: -125px;
+		display: flex;
+		flex-direction: column;
+		background-color: rgba(0,0,0,0.8);
+		z-index: 2;
+		transition: all .5s;
+	}
+
+	.main-nav a {
+		color: white;
+	}
+
+	.hero {
+		z-index: 1;
+	}
+
+	.hamburger {
+		display: block;
+	}
+
+	.main-nav ul li {
+		padding: 30px 20px 30px 20px;
+		border-bottom: 1px solid #c40000;
+		transition: all .4s ease;
+	}
+
+	.main-nav a {
+		text-align: center;
+		transition: all .4s ease;
+	}
+
+	.main-nav a:hover {
+		border-bottom: 1px solid #000;
+		transition: all .5s;
+	}
+
+	.main-nav li:hover {
+		background: #000;
+	}
+
+	.main-nav li:hover a {
+		transform: scale(1.2);
+	}
+
+	.main-nav ul.active {
+		right: 0;
+		transition: all .5s;
+	}
+
+	.header {
+		height: auto;
+	}
+}
+
+@media (max-width: 690px) {
+
+	.galleryItem {
+		width: 100%;
+		margin: 3% 15%;
+	}
+
+	.galleryItem:nth-of-type(2n+0) {
+    	margin: 3% 15%;
+    }
+
+    .col3 input[type=email] {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 7px;
+   	}
+
+    .col3 form {
+    	text-align: center;
+	}
+
+	.header {
+		height: auto;
+	}
+
+}
+
+@media (max-width: 530px) {
+
+	.hero-text {
+		width: 85%;
+		left: 50%;
+		transform: translate(-50%);
+	}
+
+	.col1,
+	.col2,
+	.col3 {
+		width: 100%;
+		margin: 0;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		margin: 10px 0;
+	}
+
+	.col2 ul li a {
+		padding: 5px;
+	}
+
+	.flexFooter-top {
+		flex-direction: column;
+	}
+}
+
+@media (max-width: 480px) {
+
+	.wrapper {
+		padding: 0 10px;
+	}
+
+	header {
+		height: auto;
+	}
+
+	h1 {
+		font-size: 2.7rem;
+	}
+
+	h2 {
+		font-size: 2.2rem;
+	}
+
+	h3 {
+		font-size: 2.4rem;
+	}
+
+	h4 {
+		font-size: 1.1rem;
+	}
+
+	p {
+    font-size: 1.3rem;
+    line-height: 1.5;
+    margin: 10px 0 0 0;
+	}
+
+	.galleryText {
+		padding: 20px;
+	}
+
+	.main-nav ul {
+		top: 62px;
+	}
+
+}

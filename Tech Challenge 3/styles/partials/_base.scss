@@ -1,0 +1,82 @@
+$primaryColour: #000;
+$secondaryColour: #c40000;
+$backgroundColour: #e8e8e8;
+$baseFont: 'Cabin', sans-serif;
+$headerFont: 'Playfair Display', serif;
+
+* {
+	font-size: 62.5%;
+	font-family: $baseFont;
+}
+
+body {
+	background-color: #fff;
+	color: $primaryColour;
+}
+
+ul, li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+p {
+	font-size: 1.4rem;
+	line-height: 1.6;
+	margin: 15px 0 0 0;
+}
+
+a {
+	text-decoration: none;
+	display: block;
+	text-transform: uppercase;
+	font-size: 1.4rem;
+	font-weight: 600;
+	letter-spacing: .1rem;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	margin: 0;
+	padding: 0;
+	font-family: $headerFont;
+}
+
+img {
+	max-width: 100%;
+	display: block;
+}
+
+figure {
+	margin: 0;
+}
+
+.wrapper {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 0 5%;
+}
+
+
+// HEADING STYLES //
+
+h1 {
+	font-size: 3.1rem;
+}
+
+h2 {
+	font-size: 2.9rem;
+}
+
+h3 {
+	font-size: 2.7rem;
+}
+
+h4 {
+	font-family: $baseFont;
+	font-size: 1.4rem;
+	font-weight: 600;
+	letter-spacing: .1rem;
+	text-transform: uppercase;
+}
+
+

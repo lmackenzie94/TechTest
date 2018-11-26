@@ -1,0 +1,77 @@
+.welcome {
+	padding: 40px 0;
+	background-color: $backgroundColour;
+	text-align: center;
+}
+
+#date {
+	font-family: $headerFont;
+	font-style: italic;
+	font-size: 1.1rem;
+	margin-top: 5px;
+}
+
+.welcome h4 {
+	margin-top: 30px;
+}
+
+.welcomeCarousel {
+	margin: 10px 43px;
+	img {
+		border-radius: 15px;
+		margin: 2%;
+	}
+}
+
+.welcomeCarousel img.is-selected {
+	box-shadow: 0 10px 8px -5px #999;
+}
+
+// FLICKITY STYLES //
+
+/* smaller, dark, rounded square */
+.flickity-button {
+  background: none;
+  transition: background .3s ease;
+  &:hover {
+  	background: #fff;
+  }
+}
+
+.flickity-prev-next-button {
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.flickity-button-icon {
+  fill: $secondaryColour;
+}
+
+/* position outside */
+.flickity-prev-next-button.previous {
+  left: -45px;
+}
+
+.flickity-prev-next-button.next {
+  right: -45px;
+}
+
+.flickity-page-dots {
+	position: absolute;
+    width: 100%;
+    bottom: -15px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    line-height: 1;
+    .dot {
+    	width: 7px;
+    	height: 7px;
+    }
+}
+
+
+
+
